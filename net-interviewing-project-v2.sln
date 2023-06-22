@@ -20,9 +20,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Insurance.Domain", "Insuran
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Insurance.Infrastructure", "Insurance.Infrastructure\Insurance.Infrastructure.csproj", "{D31CADA6-1B47-4156-9593-CD70BD054910}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insurance.Infrastrructure.Test", "Insurance.Infrastrructure.Test\Insurance.Infrastrructure.Test.csproj", "{D873A2EE-4239-415D-91BA-74EBD5025972}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Insurance.Infrastructure.Test", "Insurance.Infrastrructure.Test\Insurance.Infrastructure.Test.csproj", "{D873A2EE-4239-415D-91BA-74EBD5025972}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insurancce.API.Test", "Insurancce.API.Test\Insurancce.API.Test.csproj", "{C9FB5A68-C751-49F0-B535-2A508E594613}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Insurance.API.Test", "Insurancce.API.Test\Insurance.API.Test.csproj", "{C9FB5A68-C751-49F0-B535-2A508E594613}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OxlWTuFJ9ug89Epg5dnOkTF0eVot0+xLPAMmaS5TbfTq5BGjcRfwJjxt4kIkUP2EGh8HTetA9CfowFYh8AL6IQ==",
+  "dgSpecHash": "pGCZH61F46cBzh3fb4Gv2zSUbr08qjtgaYswitsAggLvWyuVfS8Jvk6vvWLuzC+MNymNQQ/Hrd77YcL9bvyT7w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Xeon\\Source\\Repos\\InsuranceAPI\\Insurance.Infrastrructure.Test\\Insurance.Infrastrructure.Test.csproj",
+  "projectFilePath": "C:\\Users\\Xeon\\source\\repos\\InsuranceAPI\\Insurance.Infrastrructure.Test\\Insurance.Infrastructure.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Xeon\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Xeon\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",

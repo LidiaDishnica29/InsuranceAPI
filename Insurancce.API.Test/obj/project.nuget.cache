@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TQGjet70th/6UZvEErq04ZJ1OwpU324GWXUkJ199qNq6HyNtMFFmsNIjxE2+Wx4S2kkEUZa2MpN6W9hSLQlVFA==",
+  "dgSpecHash": "gdjBXSzATIF0ync/ottKt+45kPFDNSoZA5tJGTa+pShqOlg+mu1KBbo68gbWnRM4UcPRFgrRMihCALdwyeJDZA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Xeon\\Source\\Repos\\InsuranceAPI\\Insurancce.API.Test\\Insurancce.API.Test.csproj",
+  "projectFilePath": "C:\\Users\\Xeon\\source\\repos\\InsuranceAPI\\Insurancce.API.Test\\Insurance.API.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Xeon\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Xeon\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

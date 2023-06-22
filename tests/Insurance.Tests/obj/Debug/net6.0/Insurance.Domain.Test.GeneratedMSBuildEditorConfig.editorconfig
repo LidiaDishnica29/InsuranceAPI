@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Insurance.Domain.Test
-build_property.ProjectDir = C:\Users\Xeon\Source\Repos\InsuranceAPI\tests\Insurance.Tests\
+build_property.ProjectDir = C:\Users\Xeon\source\repos\InsuranceAPI\tests\Insurance.Tests\
