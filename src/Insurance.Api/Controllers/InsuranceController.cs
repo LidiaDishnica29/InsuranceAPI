@@ -1,10 +1,12 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Insurance.Api.DTOs;
-using Insurance.Api.Helpers;
-using Insurance.Api.Interfaces;
+using Insurance.Domain.DTOs;
+using Insurance.Domain.Helpers;
+using Insurance.Domain.Interfaces;
+using Insurance.Domain.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 
 namespace Insurance.Api.Controllers
 {
@@ -16,14 +18,16 @@ namespace Insurance.Api.Controllers
     public class InsuranceController : ControllerBase
     {
         private readonly IInsuranceService _iInsuranceService;
+        private readonly IConfiguration _configuration;
 
         /// <summary>
         /// Initializes a new instance of the <see cref="InsuranceController"/> class.
         /// </summary>
-        /// <param name="logger">logger.</param>
+        /// <param name="configuration">configuration.</param>
         /// <param name="iInsuranceService">iInsuranceService.</param>
-        public InsuranceController(IInsuranceService iInsuranceService)
+        public InsuranceController(IInsuranceService iInsuranceService, IConfiguration configuration)
         {
+            _configuration = configuration;
             _iInsuranceService = iInsuranceService;
         }
 
@@ -33,14 +37,14 @@ namespace Insurance.Api.Controllers
         /// <param name="productId">productId.</param>
         /// <returns>A <see cref="Task{TResult}"/> representing the result of the asynchronous operation.</returns>
         [HttpGet("/product")]
-        public async Task<ActionResult<InsuranceDTO>> CalculateInsurance(int? productId)
+        public async Task<ActionResult<InsuranceDTO>> CalculateInsuranceById(int? productId)
         {
             if (productId == null)
             {
                 throw new ApplicationException(ErrorMessages.ID_NULL);
             }
 
-            InsuranceDTO toInsure = await _iInsuranceService.GetInsuranceByProduct(productId.Value);
+            InsuranceDTO toInsure = await _iInsuranceService.GetInsuranceByProduct(productId.Value, _configuration.GetValue<string>("ProductApi"));
 
             return Ok(toInsure);
         }
@@ -51,38 +55,16 @@ namespace Insurance.Api.Controllers
         /// <param name="productIds">productIds.</param>
         /// <returns>A <see cref="Task{TResult}"/> representing the result of the asynchronous operation.</returns>
         [HttpPost("/products")]
-        public async Task<ActionResult<TotalInsuranceCostOrderDTO>> CalculateOrderInsurance(List<int> productIds)
+        public async Task<ActionResult<double?>> CalculateOrderInsurance(List<int> productIds)
         {
             if (productIds == null || productIds?.Count == 0)
             {
                 throw new ApplicationException(ErrorMessages.ID_NULL);
             }
 
-            TotalInsuranceCostOrderDTO toInsure = await _iInsuranceService.GetInsuranceForProductsInShoppingCart(productIds);
+            var toInsure = await _iInsuranceService.GetInsuranceForProductsInShoppingCart(productIds, _configuration.GetValue<string>("ProductApi"));
 
             return Ok(toInsure);
-        }
-
-        /// <summary>
-        /// CalculateSurcharge.
-        /// </summary>
-        /// <param name="productTypeId">productTypeId.</param>
-        /// <param name="surcharge">surcharge.</param>
-        /// <returns>A <see cref="Task{TResult}"/> representing the result of the asynchronous operation.</returns>
-        [HttpGet("/surcharge")]
-        public async Task<ActionResult<InsuranceDTO>> CalculateSurcharge(int? productTypeId, int? surcharge)
-        {
-            if (productTypeId == null)
-            {
-                throw new ApplicationException(ErrorMessages.ID_NULL);
-            }
-
-            if (surcharge == null)
-            {
-                throw new ApplicationException(ErrorMessages.SURCHARGE_NULL);
-            }
-
-            return Ok();
         }
     }
 }

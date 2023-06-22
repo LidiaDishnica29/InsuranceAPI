@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Xeon\\Desktop\\net-interviewing-project-v2\\tests\\Insurance.Tests\\Insurance.Tests.csproj": {}
+    "C:\\Users\\Xeon\\Source\\Repos\\InsuranceAPI\\tests\\Insurance.Tests\\Insurance.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Xeon\\Desktop\\net-interviewing-project-v2\\src\\Insurance.Api\\Insurance.Api.csproj": {
+    "C:\\Users\\Xeon\\Source\\Repos\\InsuranceAPI\\Insurance.Domain\\Insurance.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Xeon\\Desktop\\net-interviewing-project-v2\\src\\Insurance.Api\\Insurance.Api.csproj",
-        "projectName": "Insurance.Api",
-        "projectPath": "C:\\Users\\Xeon\\Desktop\\net-interviewing-project-v2\\src\\Insurance.Api\\Insurance.Api.csproj",
+        "projectUniqueName": "C:\\Users\\Xeon\\Source\\Repos\\InsuranceAPI\\Insurance.Domain\\Insurance.Domain.csproj",
+        "projectName": "Insurance.Domain",
+        "projectPath": "C:\\Users\\Xeon\\Source\\Repos\\InsuranceAPI\\Insurance.Domain\\Insurance.Domain.csproj",
         "packagesPath": "C:\\Users\\Xeon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Xeon\\Desktop\\net-interviewing-project-v2\\src\\Insurance.Api\\obj\\",
+        "outputPath": "C:\\Users\\Xeon\\Source\\Repos\\InsuranceAPI\\Insurance.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Xeon\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,17 +44,102 @@
               "target": "Package",
               "version": "[12.0.1, )"
             },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.16, 6.0.16]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.16, 6.0.16]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.16, 6.0.16]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Xeon\\Source\\Repos\\InsuranceAPI\\src\\Insurance.Api\\Insurance.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Xeon\\Source\\Repos\\InsuranceAPI\\src\\Insurance.Api\\Insurance.Api.csproj",
+        "projectName": "Insurance.Api",
+        "projectPath": "C:\\Users\\Xeon\\Source\\Repos\\InsuranceAPI\\src\\Insurance.Api\\Insurance.Api.csproj",
+        "packagesPath": "C:\\Users\\Xeon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Xeon\\Source\\Repos\\InsuranceAPI\\src\\Insurance.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Xeon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Xeon\\Source\\Repos\\InsuranceAPI\\Insurance.Domain\\Insurance.Domain.csproj": {
+                "projectPath": "C:\\Users\\Xeon\\Source\\Repos\\InsuranceAPI\\Insurance.Domain\\Insurance.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[12.0.1, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[12.0.0, )"
+              "version": "[13.0.3, )"
             },
             "Serilog": {
               "target": "Package",
-              "version": "[2.12.0, )"
+              "version": "[3.0.0, )"
             },
             "Serilog.Extensions.Hosting": {
               "target": "Package",
@@ -75,10 +160,6 @@
             "Serilog.Sinks.File": {
               "target": "Package",
               "version": "[5.0.0, )"
-            },
-            "StyleCop": {
-              "target": "Package",
-              "version": "[6.2.0, )"
             },
             "StyleCop.Analyzers": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -146,14 +227,14 @@
         }
       }
     },
-    "C:\\Users\\Xeon\\Desktop\\net-interviewing-project-v2\\tests\\Insurance.Tests\\Insurance.Tests.csproj": {
+    "C:\\Users\\Xeon\\Source\\Repos\\InsuranceAPI\\tests\\Insurance.Tests\\Insurance.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Xeon\\Desktop\\net-interviewing-project-v2\\tests\\Insurance.Tests\\Insurance.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\Xeon\\Source\\Repos\\InsuranceAPI\\tests\\Insurance.Tests\\Insurance.Tests.csproj",
         "projectName": "Insurance.Tests",
-        "projectPath": "C:\\Users\\Xeon\\Desktop\\net-interviewing-project-v2\\tests\\Insurance.Tests\\Insurance.Tests.csproj",
+        "projectPath": "C:\\Users\\Xeon\\Source\\Repos\\InsuranceAPI\\tests\\Insurance.Tests\\Insurance.Tests.csproj",
         "packagesPath": "C:\\Users\\Xeon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Xeon\\Desktop\\net-interviewing-project-v2\\tests\\Insurance.Tests\\obj\\",
+        "outputPath": "C:\\Users\\Xeon\\Source\\Repos\\InsuranceAPI\\tests\\Insurance.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Xeon\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -170,8 +251,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Xeon\\Desktop\\net-interviewing-project-v2\\src\\Insurance.Api\\Insurance.Api.csproj": {
-                "projectPath": "C:\\Users\\Xeon\\Desktop\\net-interviewing-project-v2\\src\\Insurance.Api\\Insurance.Api.csproj"
+              "C:\\Users\\Xeon\\Source\\Repos\\InsuranceAPI\\src\\Insurance.Api\\Insurance.Api.csproj": {
+                "projectPath": "C:\\Users\\Xeon\\Source\\Repos\\InsuranceAPI\\src\\Insurance.Api\\Insurance.Api.csproj"
               }
             }
           }

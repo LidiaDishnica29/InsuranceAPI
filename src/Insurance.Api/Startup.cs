@@ -1,18 +1,16 @@
 using AutoMapper;
-using Insurance.Api.API;
-using Insurance.Api.Automapper;
-using Insurance.Api.Interfaces;
+using Insurance.Api.Extensions;
 using Insurance.Api.Middleware;
-using Insurance.Api.Services;
-using Insurance.Api.Wrapper;
+using Insurance.Domain.Automapper;
+using Insurance.Infrastructure.Context;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using Serilog;
-using System;
 
 namespace Insurance.Api
 {
@@ -54,6 +52,8 @@ namespace Insurance.Api
         /// <param name="services">services.</param>
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<InsuranceDbContext>(options =>
+                           options.UseInMemoryDatabase("MyInMemoryDatabase"));
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Your API Name", Version = "v1" });
@@ -67,15 +67,9 @@ namespace Insurance.Api
             IMapper mapper = mappingConfig.CreateMapper();
             services.AddSingleton(mapper);
 
-            services.AddScoped<IInsuranceService, InsuranceService>();
-            services.AddScoped<IProductAPIService, ProductAPIService>();
-            services.AddScoped<IHttpClientWrapper, HttpClientWrapper>();
-
             services.AddHttpClient();
-
-            // services.AddHttpClient<IBussinessRuleService, BussinessRuleService>(c =>
-            //    c.BaseAddress = new Uri(Configuration.GetValue<string>("ProductApi")));
             services.AddControllers();
+            services.ServiceDependencies();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

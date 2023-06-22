@@ -4,8 +4,8 @@ using System.Net;
 using System.Threading.Tasks;
 using System;
 using System.Text.Json;
-using Insurance.Api.Exceptions;
-using Insurance.Api.Helpers;
+using Insurance.Domain.Exceptions;
+using Insurance.Domain.Helpers;
 
 namespace Insurance.Api.Middleware
 {
@@ -65,7 +65,8 @@ namespace Insurance.Api.Middleware
                     errorResponse.Message = ErrorMessages.UNEXPECTED_ERROR;
                     break;
                 case ArgumentNullException ex:
-                    errorResponse.Message = ex.ParamName;
+                    response.StatusCode = (int)HttpStatusCode.InternalServerError;
+                    errorResponse.Message = ex.Message + ex.ParamName;
                     break;
                 default:
                     response.StatusCode = (int)HttpStatusCode.InternalServerError;

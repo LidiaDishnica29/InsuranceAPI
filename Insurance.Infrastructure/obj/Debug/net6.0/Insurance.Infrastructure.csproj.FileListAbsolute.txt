@@ -1,0 +1,15 @@
+C:\Users\Xeon\Source\Repos\InsuranceAPI\Insurance.Infrastructure\obj\Debug\net6.0\Insurance.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Xeon\Source\Repos\InsuranceAPI\Insurance.Infrastructure\obj\Debug\net6.0\Insurance.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Xeon\Source\Repos\InsuranceAPI\Insurance.Infrastructure\obj\Debug\net6.0\Insurance.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Xeon\Source\Repos\InsuranceAPI\Insurance.Infrastructure\obj\Debug\net6.0\Insurance.Infrastructure.AssemblyInfo.cs
+C:\Users\Xeon\Source\Repos\InsuranceAPI\Insurance.Infrastructure\obj\Debug\net6.0\Insurance.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Xeon\Source\Repos\InsuranceAPI\Insurance.Infrastructure\bin\Debug\net6.0\Insurance.Infrastructure.deps.json
+C:\Users\Xeon\Source\Repos\InsuranceAPI\Insurance.Infrastructure\bin\Debug\net6.0\Insurance.Infrastructure.dll
+C:\Users\Xeon\Source\Repos\InsuranceAPI\Insurance.Infrastructure\bin\Debug\net6.0\Insurance.Infrastructure.pdb
+C:\Users\Xeon\Source\Repos\InsuranceAPI\Insurance.Infrastructure\bin\Debug\net6.0\Insurance.Domain.dll
+C:\Users\Xeon\Source\Repos\InsuranceAPI\Insurance.Infrastructure\bin\Debug\net6.0\Insurance.Domain.pdb
+C:\Users\Xeon\Source\Repos\InsuranceAPI\Insurance.Infrastructure\obj\Debug\net6.0\Insurance.Infrastructure.csproj.CopyComplete
+C:\Users\Xeon\Source\Repos\InsuranceAPI\Insurance.Infrastructure\obj\Debug\net6.0\Insurance.Infrastructure.dll
+C:\Users\Xeon\Source\Repos\InsuranceAPI\Insurance.Infrastructure\obj\Debug\net6.0\refint\Insurance.Infrastructure.dll
+C:\Users\Xeon\Source\Repos\InsuranceAPI\Insurance.Infrastructure\obj\Debug\net6.0\Insurance.Infrastructure.pdb
+C:\Users\Xeon\Source\Repos\InsuranceAPI\Insurance.Infrastructure\obj\Debug\net6.0\ref\Insurance.Infrastructure.dll
