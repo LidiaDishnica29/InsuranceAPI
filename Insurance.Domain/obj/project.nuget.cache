@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FDhkgBQznVl/E845ZuK/V9dck4WtMshjG9kCnWn54PWpY2XM/wdsZn4WyMuTY/92T5aOQyDN0sYlb3Ss85bbTQ==",
+  "dgSpecHash": "8uJbrTJx60N+cNZ8lmRpvKbM382sI4jFirC+3aVEvkFfa2jOD71gOhWDXOjQfBBdycVwag1C8M91I1lDhQQCUg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Xeon\\Source\\Repos\\InsuranceAPI\\Insurance.Domain\\Insurance.Domain.csproj",
+  "projectFilePath": "C:\\Users\\Xeon\\source\\repos\\InsuranceAPI\\Insurance.Domain\\Insurance.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Xeon\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Xeon\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

@@ -2061,11 +2061,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Xeon\\Source\\Repos\\InsuranceAPI\\src\\Insurance.Api\\Insurance.Api.csproj",
+      "projectUniqueName": "C:\\Users\\Xeon\\source\\repos\\InsuranceAPI\\src\\Insurance.Api\\Insurance.Api.csproj",
       "projectName": "Insurance.Api",
-      "projectPath": "C:\\Users\\Xeon\\Source\\Repos\\InsuranceAPI\\src\\Insurance.Api\\Insurance.Api.csproj",
+      "projectPath": "C:\\Users\\Xeon\\source\\repos\\InsuranceAPI\\src\\Insurance.Api\\Insurance.Api.csproj",
       "packagesPath": "C:\\Users\\Xeon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Xeon\\Source\\Repos\\InsuranceAPI\\src\\Insurance.Api\\obj\\",
+      "outputPath": "C:\\Users\\Xeon\\source\\repos\\InsuranceAPI\\src\\Insurance.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Xeon\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2082,11 +2082,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Xeon\\Source\\Repos\\InsuranceAPI\\Insurance.Domain\\Insurance.Domain.csproj": {
-              "projectPath": "C:\\Users\\Xeon\\Source\\Repos\\InsuranceAPI\\Insurance.Domain\\Insurance.Domain.csproj"
+            "C:\\Users\\Xeon\\source\\repos\\InsuranceAPI\\Insurance.Domain\\Insurance.Domain.csproj": {
+              "projectPath": "C:\\Users\\Xeon\\source\\repos\\InsuranceAPI\\Insurance.Domain\\Insurance.Domain.csproj"
             },
-            "C:\\Users\\Xeon\\Source\\Repos\\InsuranceAPI\\Insurance.Infrastructure\\Insurance.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Xeon\\Source\\Repos\\InsuranceAPI\\Insurance.Infrastructure\\Insurance.Infrastructure.csproj"
+            "C:\\Users\\Xeon\\source\\repos\\InsuranceAPI\\Insurance.Infrastructure\\Insurance.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Xeon\\source\\repos\\InsuranceAPI\\Insurance.Infrastructure\\Insurance.Infrastructure.csproj"
             }
           }
         }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Xeon\\Source\\Repos\\InsuranceAPI\\Insurancce.API.Test\\Insurancce.API.Test.csproj": {}
+    "C:\\Users\\Xeon\\source\\repos\\InsuranceAPI\\Insurancce.API.Test\\Insurancce.API.Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Xeon\\Source\\Repos\\InsuranceAPI\\Insurancce.API.Test\\Insurancce.API.Test.csproj": {
+    "C:\\Users\\Xeon\\source\\repos\\InsuranceAPI\\Insurancce.API.Test\\Insurancce.API.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Xeon\\Source\\Repos\\InsuranceAPI\\Insurancce.API.Test\\Insurancce.API.Test.csproj",
+        "projectUniqueName": "C:\\Users\\Xeon\\source\\repos\\InsuranceAPI\\Insurancce.API.Test\\Insurancce.API.Test.csproj",
         "projectName": "Insurancce.API.Test",
-        "projectPath": "C:\\Users\\Xeon\\Source\\Repos\\InsuranceAPI\\Insurancce.API.Test\\Insurancce.API.Test.csproj",
+        "projectPath": "C:\\Users\\Xeon\\source\\repos\\InsuranceAPI\\Insurancce.API.Test\\Insurancce.API.Test.csproj",
         "packagesPath": "C:\\Users\\Xeon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Xeon\\Source\\Repos\\InsuranceAPI\\Insurancce.API.Test\\obj\\",
+        "outputPath": "C:\\Users\\Xeon\\source\\repos\\InsuranceAPI\\Insurancce.API.Test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Xeon\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Xeon\\Source\\Repos\\InsuranceAPI\\src\\Insurance.Api\\Insurance.Api.csproj": {
-                "projectPath": "C:\\Users\\Xeon\\Source\\Repos\\InsuranceAPI\\src\\Insurance.Api\\Insurance.Api.csproj"
+              "C:\\Users\\Xeon\\source\\repos\\InsuranceAPI\\src\\Insurance.Api\\Insurance.Api.csproj": {
+                "projectPath": "C:\\Users\\Xeon\\source\\repos\\InsuranceAPI\\src\\Insurance.Api\\Insurance.Api.csproj"
               }
             }
           }
@@ -103,14 +103,14 @@
         }
       }
     },
-    "C:\\Users\\Xeon\\Source\\Repos\\InsuranceAPI\\Insurance.Domain\\Insurance.Domain.csproj": {
+    "C:\\Users\\Xeon\\source\\repos\\InsuranceAPI\\Insurance.Domain\\Insurance.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Xeon\\Source\\Repos\\InsuranceAPI\\Insurance.Domain\\Insurance.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Xeon\\source\\repos\\InsuranceAPI\\Insurance.Domain\\Insurance.Domain.csproj",
         "projectName": "Insurance.Domain",
-        "projectPath": "C:\\Users\\Xeon\\Source\\Repos\\InsuranceAPI\\Insurance.Domain\\Insurance.Domain.csproj",
+        "projectPath": "C:\\Users\\Xeon\\source\\repos\\InsuranceAPI\\Insurance.Domain\\Insurance.Domain.csproj",
         "packagesPath": "C:\\Users\\Xeon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Xeon\\Source\\Repos\\InsuranceAPI\\Insurance.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Xeon\\source\\repos\\InsuranceAPI\\Insurance.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Xeon\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -184,14 +184,14 @@
         }
       }
     },
-    "C:\\Users\\Xeon\\Source\\Repos\\InsuranceAPI\\Insurance.Infrastructure\\Insurance.Infrastructure.csproj": {
+    "C:\\Users\\Xeon\\source\\repos\\InsuranceAPI\\Insurance.Infrastructure\\Insurance.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Xeon\\Source\\Repos\\InsuranceAPI\\Insurance.Infrastructure\\Insurance.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Xeon\\source\\repos\\InsuranceAPI\\Insurance.Infrastructure\\Insurance.Infrastructure.csproj",
         "projectName": "Insurance.Infrastructure",
-        "projectPath": "C:\\Users\\Xeon\\Source\\Repos\\InsuranceAPI\\Insurance.Infrastructure\\Insurance.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\Xeon\\source\\repos\\InsuranceAPI\\Insurance.Infrastructure\\Insurance.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Xeon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Xeon\\Source\\Repos\\InsuranceAPI\\Insurance.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Xeon\\source\\repos\\InsuranceAPI\\Insurance.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Xeon\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -208,8 +208,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Xeon\\Source\\Repos\\InsuranceAPI\\Insurance.Domain\\Insurance.Domain.csproj": {
-                "projectPath": "C:\\Users\\Xeon\\Source\\Repos\\InsuranceAPI\\Insurance.Domain\\Insurance.Domain.csproj"
+              "C:\\Users\\Xeon\\source\\repos\\InsuranceAPI\\Insurance.Domain\\Insurance.Domain.csproj": {
+                "projectPath": "C:\\Users\\Xeon\\source\\repos\\InsuranceAPI\\Insurance.Domain\\Insurance.Domain.csproj"
               }
             }
           }
@@ -281,14 +281,14 @@
         }
       }
     },
-    "C:\\Users\\Xeon\\Source\\Repos\\InsuranceAPI\\src\\Insurance.Api\\Insurance.Api.csproj": {
+    "C:\\Users\\Xeon\\source\\repos\\InsuranceAPI\\src\\Insurance.Api\\Insurance.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Xeon\\Source\\Repos\\InsuranceAPI\\src\\Insurance.Api\\Insurance.Api.csproj",
+        "projectUniqueName": "C:\\Users\\Xeon\\source\\repos\\InsuranceAPI\\src\\Insurance.Api\\Insurance.Api.csproj",
         "projectName": "Insurance.Api",
-        "projectPath": "C:\\Users\\Xeon\\Source\\Repos\\InsuranceAPI\\src\\Insurance.Api\\Insurance.Api.csproj",
+        "projectPath": "C:\\Users\\Xeon\\source\\repos\\InsuranceAPI\\src\\Insurance.Api\\Insurance.Api.csproj",
         "packagesPath": "C:\\Users\\Xeon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Xeon\\Source\\Repos\\InsuranceAPI\\src\\Insurance.Api\\obj\\",
+        "outputPath": "C:\\Users\\Xeon\\source\\repos\\InsuranceAPI\\src\\Insurance.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Xeon\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -305,11 +305,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Xeon\\Source\\Repos\\InsuranceAPI\\Insurance.Domain\\Insurance.Domain.csproj": {
-                "projectPath": "C:\\Users\\Xeon\\Source\\Repos\\InsuranceAPI\\Insurance.Domain\\Insurance.Domain.csproj"
+              "C:\\Users\\Xeon\\source\\repos\\InsuranceAPI\\Insurance.Domain\\Insurance.Domain.csproj": {
+                "projectPath": "C:\\Users\\Xeon\\source\\repos\\InsuranceAPI\\Insurance.Domain\\Insurance.Domain.csproj"
               },
-              "C:\\Users\\Xeon\\Source\\Repos\\InsuranceAPI\\Insurance.Infrastructure\\Insurance.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Xeon\\Source\\Repos\\InsuranceAPI\\Insurance.Infrastructure\\Insurance.Infrastructure.csproj"
+              "C:\\Users\\Xeon\\source\\repos\\InsuranceAPI\\Insurance.Infrastructure\\Insurance.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Xeon\\source\\repos\\InsuranceAPI\\Insurance.Infrastructure\\Insurance.Infrastructure.csproj"
               }
             }
           }
